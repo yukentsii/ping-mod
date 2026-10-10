@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "ping-mod",
+	"version": "${version}",
+	"name": "Ping Mod",
+	"description": "A lightweight, server-side ping command mod with live action bar HUD support.",
+	"authors": [
+		"yukentsii"
+	],
+	"contact": {
+		"homepage": "https://github.com/yukentsii/ping-mod",
+		"sources": "https://github.com/yukentsii/ping-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ping-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.PingMod"
+		]
+	},
+	"mixins": [
+		"ping-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
