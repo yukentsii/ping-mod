@@ -1,11 +1,6 @@
 # Ping Mod
 
-A lightweight, strictly **server-side** Fabric mod for Minecraft that provides real-time ping measurement and an Action Bar HUD.
-
-No client-side mod required! Works seamlessly for vanilla clients.
-
-Each release targets a specific Minecraft version — see the [Releases](https://github.com/yukentsii/ping-mod/releases) page for the supported versions.
-
+A lightweight, **server-side** Fabric mod for Minecraft that provides real-time ping measurement and an Action Bar HUD.
 ---
 
 ## Features
@@ -31,15 +26,6 @@ Each release targets a specific Minecraft version — see the [Releases](https:/
 | `/hudping <on\|off>` | Everyone | Explicitly enables or disables the Action Bar ping display. |
 | `/ping refresh <seconds>` | Everyone | Sets your HUD refresh interval (1–60 seconds, default: 1s). |
 | `/hudping refresh <seconds>` | Everyone | Alias for setting the HUD refresh interval. |
-
----
-
-## Installation
-
-1. Install **Fabric Loader** and **Fabric API** on your Minecraft server.
-2. Download the `ping-mod-<version>.jar` that matches your Minecraft version from the [Releases](https://github.com/yukentsii/ping-mod/releases) page.
-3. Place the `.jar` into your server's `mods/` directory and restart the server.
-4. Players connecting with a regular vanilla Minecraft client can immediately use `/ping` and `/hudping`.
 
 ---
 
